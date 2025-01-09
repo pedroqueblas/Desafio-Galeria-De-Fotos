@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Galeria de Fotos</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <h1 class="title">Galeria de Fotos</h1>
+    </header>
+    <main class="main-container">
+      <section class="search-container">
+        <input 
+          id="searchInput" 
+          class="input-box" 
+          type="text" 
+          placeholder="Pesquisar fotos..." 
+          oninput="filterPhotos()">
+        <button class="btn">
+          <span class="lupa-icon">🔍</span>
+        </button>
+      </section>
+      <section id="photoGrid" class="photo-grid">
+        <!-- as fotos vão ser implementadas por js -->
+      </section>
+      <p id="noResults" class="no-results hidden">Nenhuma foto encontrada</p>
+    </main>
+    <footer class="footer-container">
+      <p>© 2024 Galeria de Fotos. todos os direitos reservados.</p>
+    </footer>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
