@@ -29,12 +29,20 @@ Abra o arquivo index.html no navegador.
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou criar um pull request com melhorias e sugestões.
 
 Faça um fork do projeto.
+
 Crie uma nova branch:
 
+
 git checkout -b minha-branch
+
+
 Commit suas alterações:
 
+
 git commit -m 'Minha contribuição'
+
+
 Faça um push para a branch:
+
 
 git push origin minha-branch
